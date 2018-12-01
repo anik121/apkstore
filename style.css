@@ -75,6 +75,43 @@ header .banner {
   z-index: -1;
 }
 
+#slider_banner {
+  position: relative;
+  width: 90%;
+  margin: 20px auto auto;
+}
+
+#slider_banner .carousel .carousel-item .thumbnail img {
+  width: 100%;
+}
+
+#slider_banner .share .social {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#slider_banner .share .social a {
+  color: #999999;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+#slider_banner .share .social a:nth-child(1):hover {
+  color: #0984e3;
+}
+
+#slider_banner .share .social a:nth-child(2):hover {
+  color: #e74c3c;
+}
+
+#slider_banner .share .social a:nth-child(3):hover {
+  color: #48dbfb;
+}
+
+#slider_banner .share .social i {
+  font-size: 30px;
+}
+
 #post-area .title {
   font-size: 22px;
   color: #333333;
@@ -86,7 +123,6 @@ header .banner {
 #post-area .post-box {
   position: relative;
   background-color: #ecf0f1;
-  border: 1px solid #c4c4c4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,6 +132,8 @@ header .banner {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 10px 0;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 #post-area .post-box .more-trigger {
