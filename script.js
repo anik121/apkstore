@@ -3,6 +3,7 @@ $(document).ready(function(){
       swipeable: false
     });
     $('.carousel.carousel-slider').carousel({
-      indicators: true
+      indicators: true,
+      fullWidth: true
     });
   });
